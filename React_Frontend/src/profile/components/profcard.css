@@ -1,0 +1,72 @@
+.main-card {
+  margin: 0 4rem;
+  border: 0px solid white;
+  box-shadow: 0 4.8px 4.2px rgba(0, 0, 0, 0.134),
+    0 8.7px 7.3px rgba(0, 0, 0, 0.148), 0 14.5px 12px rgba(0, 0, 0, 0.16),
+    0 24.3px 19.9px rgba(0, 0, 0, 0.172), 0 43.8px 35.4px rgba(0, 0, 0, 0.186),
+    0 102px 82px rgba(0, 0, 0, 0.22);
+  background-color: white;
+  border-bottom: 0.8rem solid #014180;
+}
+
+.main-container {
+  /* border-radius: 2rem; */
+  padding-bottom: 5rem;
+}
+
+.div-image {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.image1 {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  border: 4px solid white;
+  box-shadow: 0 4.8px 4.2px rgba(0, 0, 0, 0.134),
+    0 8.7px 7.3px rgba(0, 0, 0, 0.148), 0 14.5px 12px rgba(0, 0, 0, 0.16),
+    0 24.3px 19.9px rgba(0, 0, 0, 0.172), 0 43.8px 35.4px rgba(0, 0, 0, 0.186),
+    0 102px 82px rgba(0, 0, 0, 0.22);
+  position: relative;
+  z-index: 1;
+  margin-bottom: -5rem;
+}
+
+.save {
+  background-color: #01796f;
+}
+
+.cancel {
+  background-color: #d80059;
+}
+.verify-id {
+  background-color: #ffa1a1;
+  margin-top: 5rem;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  justify-content: center;
+  width: 8rem;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background-color: #e9e9e9;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}

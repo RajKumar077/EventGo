@@ -1,0 +1,10 @@
+.footer-info {
+  color: dodgerblue;
+}
+.footer-info:hover {
+  color: white;
+}
+
+.footer {
+  background-color: #002e5b;
+}
